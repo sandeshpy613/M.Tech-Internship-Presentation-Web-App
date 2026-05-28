@@ -1,0 +1,207 @@
+{
+  "presentation_info": {
+    "title": "Full-Stack Development and AI Integration for Industrial Applications",
+    "subtitle": "Master of Technology Internship Presentation",
+    "affiliation": "VVCE, Mysuru",
+    "presenter": {
+      "name": "SANDESH P Y",
+      "reg_no": "4VV24SCS10",
+      "department": "Department of Computer Science & Engineering",
+      "college": "VVCE Mysuru"
+    },
+    "guide": {
+      "name": "Dr. Hamsaveni M",
+      "designation": "Associate Professor, Dept. of CSE",
+      "institution": "VVCE, Mysuru"
+    },
+    "external_guide": {
+      "name": "Devanga Aravinda",
+      "designation": "External Guide, MD",
+      "company": "Raashi Digital LLP"
+    }
+  },
+  "slides": [
+    {
+      "id": 0,
+      "key": "title",
+      "title": "Full-Stack Development and AI Integration",
+      "category": "Welcome",
+      "notes": "Introduce yourself, mention the project title, guide names, external guides at Raashi Digital LLP, and state that this presentation reviews your M.Tech internship contributions in building a full-stack learning portal and an AI-driven RAG knowledge system."
+    },
+    {
+      "id": 1,
+      "key": "executive_summary",
+      "title": "Executive Summary",
+      "category": "Overview",
+      "notes": "In simple terms : I will state that this work involves two parts. Part A is an educational website for learning courses.In this Technology stack used is Next.js (frontend), Python (backend), and PostgreSQL (database). Part B is an intelligent search engine that helps engineers find designing of CAD models using the ASME Standards in ASME manuals.The search uses RAG to avoid false information (hallucinations).",
+      "heading": "Key Achievements during the Internship:",
+      "bullets": [
+        "Developed a reliable 3-tier Web Portal for learning portal for learning cources using Next.js (frontend), Python/Django (backend), and PostgreSQL (database).",
+        "Engineered an AI-Driven Knowledge System to instantly find compliance rules in ASME standards.",
+        "Integrated Retrieval-Augmented Generation (RAG) to ensure AI responses are strictly fact-checked (grounded) and do not contain fake data."
+      ]
+    },
+    {
+      "id": 2,
+      "key": "company_context",
+      "title": "Raashi Digital LLP",
+      "category": "Company Context",
+      "notes": "Introduce to organization: Raashi Digital LLP located in Bengaluru, India. They focus on enabling digital workflows for Aerospace, Automotive, and Electronics companies. Describe their expertise in PLM/MBE consulting and CAD tool development.",
+      "heading": "About the Host Organization:",
+      "bullets": [
+        "Location: Bengaluru, India. Firm focused on enabling digital workflows for Aerospace, Automotive, and Electronics.",
+        "PLM & MBE Expertise: Specialize in Product Lifecycle Management on systems like Siemens Teamcenter & PTC Windchill.",
+        "Custom CAD Tool Development: Created custom plugins like RdCADAM Manager and RdPDI Importer to streamline data management.",
+        "MBE Maturity Evaluation: Structured consulting to review client design and quality assurance against top industry standards."
+      ]
+    },
+    {
+      "id": 3,
+      "key": "training_program",
+      "title": "Internship Training Domains",
+      "category": "Training",
+      "notes": "Detail to the two domains of my training. Domain 1 is Enterprise Systems and Web Architecture, where I learned Next.js, Django, API configurati on, and SQL schemas. Domain 2 is Applied AI, covering RAG, vector search, and priority weighting for rules.",
+      "domain_1": {
+        "title": "Enterprise Systems & Web Architecture",
+        "bullets": [
+          "Study of 3-tier architecture to separate front-end visual rendering, backend APIs, and databases.",
+          "Configuring APIs to handle data requests efficiently.",
+          "Configuring PostgreSQL databases and using migrations to safely edit table fields without data loss."
+        ]
+      },
+      "domain_2": {
+        "title": "Applied AI for Engineering",
+        "bullets": [
+          "Learning Retrieval-Augmented Generation (RAG) to ground model responses in validated engineering standards.",
+          "Studying semantic vector search, converting pages into numeric vector representations.",
+          "Document priority mechanisms to prefer company internal guidelines over general industry rules."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "key": "learning_experiences",
+      "title": "Learning Experiences & Skills",
+      "category": "Learning",
+      "notes": "About theoretical concepts I studied (ASME Y14.41 standard and Geometric Dimensioning/Tolerancing) which are key in aerospace/automotive engineering. About practical skills learned, such as using Git version control, participating in code reviews, and resolving local developer environment issues.",
+      "theory": {
+        "heading": "Theoretical Context",
+        "items": [
+          {
+            "title": "ASME Y14.41 Standard",
+            "desc": "It's Standard explaining how dimensions and text annotations are placed directly onto 3D CAD models, allowing the file to serve as the definitive source."
+          },
+          {
+            "title": "GD&T Principles",
+            "desc": "Geometric Dimensioning and Tolerancing: rules that define the exact limits of variation in size and form of designed parts."
+          }
+        ]
+      },
+      "practical": {
+        "heading": "Practical Coding & Development Skills",
+        "items": [
+          "Version Control & Collaboration (Git): Worked with repository management, code synchronization, branch handling, merge updates, and continuous implementation tracking across CAD RAG and RLP-based development workflows.",
+          "Backend Workflow Development & Troubleshooting: Worked on CAD RAG pipelines, PDF extraction workflows, API integrations, logger implementation, prompt engineering, environment setup, and resolving execution issues related to ports, dependencies, and system configurations.",
+          "Code Refactoring & Enterprise Workflow Alignment: Refactored and reorganized project structures, moved hardcoded configurations into centralized constants, improved maintainability with comments/logs, and aligned implementations with scalable enterprise-level architecture and workflow standards."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "key": "project_1",
+      "title": "Project 1: Enterprise Learning Portal",
+      "category": "Projects",
+      "notes": "This is my first project, It's name is Enterprise Learning Portal. It runs on a classic 3-tier architecture. I had organized the files, fixing path errors, designing relational schemas for student progress, and setting up SSR in Next.js to make it fast. Click on the layers in the interactive graph below to showcase details.",
+      "frontend": {
+        "title": "Presentation Layer (Frontend)",
+        "subtitle": "Next.js & React",
+        "desc": "Frontend is the enduser facing layer of the application. It is built using Next.js and React.",
+        "bullets": [
+          "Developed responsive, modern user dashboards with Next.js and React to visualize student progress.",
+          "Built dynamic learning logs, search interfaces, and modules for employee training registration.",
+          "Integrated Server-Side Rendering (SSR) to optimize load speed and improve SEO compatibility.",
+          "Designed standard, easy-to-use forms and feedback elements to ensure a simple and responsive user experience."
+        ]
+      },
+      "backend": {
+        "title": "Business Logic Layer (Backend)",
+        "subtitle": "Django & Python",
+        "desc": "Backend is the backbone of the application. It is built using Django and Python.",
+        "bullets": [
+          "Engineered lightweight, secure REST APIs using Python and the Django REST Framework.",
+          "Created endpoints to handle course registrations, progress tracking, and validation queries.",
+          "Implemented authentication check-points and secure request routing protocols for user sessions.",
+          "Built modular controllers separating server response formatting from underlying database schemas."
+        ]
+      },
+      "database": {
+        "title": "Data Persistence Layer (Database)",
+        "subtitle": "PostgreSQL",
+        "desc": "Database is the most important part of the backend. It is used to store the data in the database.",
+        "bullets": [
+          "PostgreSQL for relational storage to guarantee transaction reliability (ACID compliance).",
+          "Automated schema migrations to update student tables without risking data integrity.",
+          "Led backend directory refactoring: reorganized relative path imports across 100+ files to resolve compile errors.",
+          "Optimized data querying to fetch student course completion records with low execution delay."
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "key": "project_2",
+      "title": "Project 2: AI Knowledge System",
+      "category": "Projects",
+      "notes": "This is my second project, It's name is AI Knowledge Assistant. It is a RAG pipeline designed for engineers to lookup standards.In this project I learnt about the working of llms and how to use them to solve real world problems. I also learnt about the importance of data in llms and how to use it to improve the performance of llms. Further, I Explain the steps of the ingestion pipeline: parsing PDF structure, chunking to keep metadata (like titles, page numbers), creating vector embeddings, and storing them in a semantic search database. Run the interactive trace to demonstrate.",
+      "heading": "Custom Document Ingestion & Retrieval Pipeline:",
+      "bullets": [
+        "Ingestion Pipeline: Built a PDF parsing utility that extracts text from dense standards and splits it into logical, context-preserving chunks.",
+        "Metadata Retention: Maintained source identifiers like document titles, page numbers, and section headers inside each vector embedding.",
+        "Vector Database: Converted text chunks into multi-dimensional numerical embeddings using deep learning models and stored them in a semantic search database.",
+        "Result: Allows engineers to conceptually search rules (e.g. searching for 'tolerances' matches semantic intent) instead of matching exact letters."
+      ]
+    },
+    {
+      "id": 7,
+      "key": "grounding",
+      "title": "Grounding and Search Priorities",
+      "category": "AI Mechanics",
+      "notes": "Explain the details of search prioritization and grounding. Point out that the system searches both standard guidelines and internal company rules. Company rules must take priority because they override general rules. Grounding locks down the LLM so it only generates responses from verified chunks, ensuring safety.",
+      "priority": {
+        "heading": "Dual-Database Priority",
+        "desc": "We store broadly applicable industry standards (like ASME) separately from company-specific rules and instructions.",
+        "highlight": "When searching, company-specific directives automatically receive a higher importance score and supersede general rules."
+      },
+      "grounding": {
+        "heading": "LLM Grounding & Re-Ranking",
+        "desc": "To prevent AI from making up values (hallucinating), the search query context acts as a tight cage.",
+        "items": [
+          "Cross-Encoder: Re-ranks retrieved snippets to verify semantic relevance.",
+          "Strict Grounding: The LLM is instructed to answer solely using the verified search results.",
+          "Citations: Provides links directly back to the document chapter and page."
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "key": "conclusion",
+      "title": "Conclusion & Future Outlook",
+      "category": "Conclusion",
+      "notes": "Conclude the presentation. The internship was a valuable bridge between college theory and enterprise software engineering. You gained skills in Python/Django, Next.js, and applied RAG. Ready for a successful career in advanced data and software integration.",
+      "capstone": {
+        "title": "Capstone Success",
+        "subtitle": "Bridge Theory & Practice",
+        "desc": "Successfully applied theoretical computing concepts to build tools solving real-world problems at Raashi Digital LLP."
+      },
+      "foundation": {
+        "title": "Full-Stack Foundation",
+        "subtitle": "Industry Standard Code",
+        "desc": "Gained practical experience in professional development: By using Git, writing API docs, and managing relational databases, and much more."
+      },
+      "future": {
+        "title": "Future Path",
+        "subtitle": "AI & Software Integration",
+        "desc": "Prepared for roles in advanced software systems,Backend engineering, and making AI-powered tool finetuning etc."
+      }
+    }
+  ]
+}
