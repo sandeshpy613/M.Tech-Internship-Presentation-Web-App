@@ -73,9 +73,9 @@ To put this presentation online and connect it to your domain `sandeshpy.com` un
 4. Create a **New Repository** on GitHub (name it something like `internship-presentation`). Keep it public or private.
 5. Copy the command lines given by GitHub under **"…or push an existing repository from the command line"** and run them:
    ```bash
-   git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-   git branch -M main
-   git push -u origin main
+   git remote add origin git@github.com:sandeshpy613/M.Tech-Internship-Presentation-Web-App.git
+   
+   git push -u origin master
    ```
 
 ### Step 2: Import Your Project to Vercel
